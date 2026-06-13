@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <title>Feliz vida Geh! </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="site-main">
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="main-glow-heart">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </div>
+
+                <h1>Feliz vida minha princesa!! 🎉</h1>
+                <p class="hero-subtitle">
+                    <span class="calendar-icon">📅</span> Juntos a mais de dois meses!
+                </p>
+                
+                <div class="hero-counters">
+                    <div class="counter-card">
+                        <span class="counter-value">2</span>
+                        <span class="counter-label">MESES</span>
+                    </div>
+                    <div class="counter-card">
+                        <span class="counter-value">24</span>
+                        <span class="counter-label">DIAS</span>
+                    </div>
+                </div>
+                
+                <div class="hero-timer" id="live-timer">00 : 00 : 00</div>
+                <p class="hero-note">São 85 dias de amor</p>
+                
+                <div class="scroll-indicator" aria-hidden="true"><span class="scroll-wheel"></span></div>
+            </div>
+        </section>
+
+        <div class="section-divider"><span>♥</span></div>
+
+        <section class="section section-music">
+            <div class="section-card">
+                <div class="section-heading">
+                    <div class="section-icon">♫</div>
+                    <div>
+                        <h2>Ouve enquanto olha nossas fotos! 🤍</h2>
+                    </div>
+                </div>
+                <button class="btn-secondary" id="play-music-btn" type="button">
+                    <span class="play-icon">▶</span> Ouvir agora
+                </button>
+                
+                <video id="music-file" src="assets/a-hora-e-agora.mp4" preload="auto" style="display: none;"></video>
+                
+                <div class="section-band">
+                    <div class="band-dot">♫</div>
+                    <div class="band-dot">♫</div>
+                    <div class="band-dot">♫</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"><span>♥</span></div>
+
+        <section class="section section-quote">
+            <div class="quote-card">
+                <p>"Feliz aniversário minha princesa! Minha futura namorada, esposa e mãe de meus filhos! 
+    Que essa data se repita por longos anos!
+    Quero te desejar tudo que há de bom para a sua vida! Mas contudo a presença de Deus pois eu sei que com Ele, a segurança e a vitória é garantida!    Saiba que você uma pessoa muito importante para mim, sempre estará em meu coração! Nunca imaginei que iríamos parar nesse ponto! Eu lembro como se fosse ontem, eu só te "conhecia" só de olhar mesmo kkk
+    Você chegou numa fase da minha vida que estava tudo bagunçada, e mesmo sem eu ter falado se quer nada por não te preocupar, você me curou, através das suas atitudes! O seu sorriso, que sempre me encanto quando vejo, pois nunca acaba apesar das lutas! Eu te admiro muito, o Espírito Santo reflete em ti!
+    Me desculpe se eu te decepcionei algumas vezes, quebrei expectativas mas estou tentando ser melhor para você, no começo, eu confesso, tive receio e olha nós caminhando!
+    Eu quero construir um futuro lindo contigo e sempre debaixo da autoridade de Deus, idenpendente se estiver nos momentos de de alegria ou até mesmo nos momentos de choro, sempre quero estar ao seu lado para dizer que você tem alguém que pode confiar. Quero algo eterno é não temporário!
+    Saiba que eu quero ser o seu parceiro fiel, companheiro, zeloso, carinhoso, protetor para a vida toda, sempre estou disposto a te ouvir! Você nunca será um peso para mim!
+    Isso é bem simples comparado ao que quero te dar, mas é com carinho e amor.
+    Não há palavras para expressar o quão você é importante para mim e o quão és bela! Que Deus continue te abençoando e te guardando, viu? Teremos muito mais datas e motivos para comemorar, se que você me entende kkkk. Não vejo a hora de contruir o nosso futuro, viajando... alcançando nossos sonhos... nossa família... que emoção! Mas uma etapa de cada vez kk
+    Eu te amo muito minha Gigi! Te dedico a passagem de Cânticos 1.15 e I Corintios 13.4-7"</p>
+            </div>
+        </section>
+
+        <div class="section-divider"><span>♥</span></div>
+
+        <section class="section section-gallery">
+            <div class="section-header">
+                <h2>Nossos Momentos</h2>
+                <p>Memórias que guardamos no coração</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-main">
+                    <button class="slider-arrow prev-arrow" type="button">‹</button>
+                    
+                    <img id="main-slider-img" src="assets/foto-parque.jpeg" alt="Foto do casal">
+                    <span class="gallery-main-label" id="slider-counter">1 / 10</span>
+                    
+                    <button class="slider-arrow next-arrow" type="button">›</button>
+
+                    <div class="slider-dots" id="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                
+                <div class="gallery-thumbs">
+                    <button class="gallery-thumb active" type="button"><img src="assets/foto-parque.jpeg" alt="Thumbnail 1"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-1.jpeg" alt="Thumbnail 2"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-2.jpeg" alt="Thumbnail 3"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-3.jpeg" alt="Thumbnail 4"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-4.jpeg" alt="Thumbnail 5"></button>
+                </div>
+                <div class="gallery-thumbs">
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-5.jpeg" alt="Thumbnail 6"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-6.jpeg" alt="Thumbnail 7"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-shopping-7.jpeg" alt="Thumbnail 8"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-vigilia-1.jpeg" alt="Thumbnail 9"></button>
+                    <button class="gallery-thumb" type="button"><img src="assets/foto-vigilia-2.jpeg" alt="Thumbnail 10"></button>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"><span>♥</span></div>
+
+        <section class="section section-quiz" id="quiz-section">
+            <div class="section-header">
+                <h2>Quiz do Nosso Amor</h2>
+                <p>Será que você tem uma boa memória? Vamos descobrir!</p>
+            </div>
+            
+            <div class="quiz-card" id="quiz-start">
+                <h3>Pronta para o desafio?</h3>
+                <p>Preparei 5 perguntas especiais para você. Se acertar mais de duas, ganha um prémio! 🏆</p>
+                <button class="btn-secondary" id="start-quiz-btn" type="button">Começar Quiz</button>
+            </div>
+
+            <div class="quiz-card" id="question-card" style="display: none;">
+                <div class="quiz-progress" id="quiz-progress">Pergunta 1 de 5</div>
+                <h3 id="question-text">A carregar pergunta...</h3>
+                <div class="quiz-options" id="quiz-options"></div>
+            </div>
+
+            <div class="quiz-card" id="quiz-result" style="display: none;">
+                <h3>Desafio Concluído! 💖</h3>
+                <p class="quiz-score" id="quiz-score">Acertaste 0 de 5!</p>
+                <div class="prize-box" id="prize-box" style="display: none;">
+                    <h4>🎁 O Teu Prémio Especial:</h4>
+                    <p><strong>Um Vale Jantar Romântico Completo!</strong> Com direito à tua comida favorita e ao final, eu vou pagar minhas outras dívidas kk. Eu te amo muito!</p>
+                    <span class="prize-code">CUPOM: MEU-AMOR</span>
+                </div>
+                
+                <button class="btn-secondary" id="retry-quiz-btn" type="button" style="margin-top: 24px;">
+                    Tentar Novamente
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

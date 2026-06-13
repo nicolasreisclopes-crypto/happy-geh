@@ -1,0 +1,34 @@
+{
+  "page_info": {
+    "title": "Exemplo de Site de Amor | Veja Como Fica | DearYou",
+    "description": "Veja um exemplo real de página de amor criada no DearYou. Contador de tempo juntos, fotos do casal, música especial e mensagem personalizada. Crie a sua em 5 minutos!",
+    "keywords": [
+      "exemplo site de amor",
+      "modelo página namorada",
+      "como fica site dearyou",
+      "exemplo presente namorada"
+    ],
+    "generator": "v0.app",
+    "canonical_url": "https://dearyou.com.br/exemplo"
+  },
+  "open_graph_protocol": {
+    "og_title": "Exemplo de Site de Amor | DearYou",
+    "og_description": "Veja um exemplo real de página de amor criada no DearYou. Contador de tempo, fotos, música e mensagem personalizada.",
+    "og_url": "https://dearyou.com.br/exemplo",
+    "og_site_name": "DearYou",
+    "og_locale": "pt_BR",
+    "og_image": "https://dearyou.com.br/DearYou-Inline.jpg",
+    "og_image_dimensions": {
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "partnership_data": {
+    "start_date": "2025-11-20",
+    "current_status": {
+      "months": 6,
+      "days": 23,
+      "total_days_counted": 204
+    }
+  }
+}

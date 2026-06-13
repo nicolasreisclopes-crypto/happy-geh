@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "Quem falou o primeiro 'Eu te amo'?",
+    "options": [
+      "Eu",
+      "Você",
+      "Os dois",
+      "Nenhum de nós"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Onde foi o nosso primeiro encontro oficial?",
+    "options": [
+      "No cinema",
+      "No shopping",
+      "No parque",
+      "Num café"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "Quando começamos a conversar e nos conhecer?",
+    "options": [
+      "19 de Março",
+      "20 de Março",
+      "21 de Março",
+      "22 de Março"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "Quem é mais provável dormir no meio de um filme?",
+    "options": [
+    "Eu",
+    "Você",
+    "Os dois",
+    "Nenhum de nós"
+  ],
+    "correctIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Qual é o destino de viagem dos meus sonhos?",
+    "options": [
+      "França",
+      "Chile",
+      "Itália",
+      "Alemanha"
+    ],
+    "correctIndex": 3
+  }
+]
